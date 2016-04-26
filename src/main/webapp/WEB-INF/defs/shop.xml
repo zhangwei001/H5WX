@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="shop.index" extends="naked">
+		<put-attribute name="title" expression='商家详情' />
+		<put-attribute name="keywords" value="美丽加,女性网,美容,美白,护肤,减肥,袪痘袪斑,O2O美容院管理系统" />
+		<put-attribute name="description" value="美丽加致力于打造互联网最大的美丽诚信平台，为爱美人士提供安全放心的美丽项目，为美丽专业店提供O2O解决方案及免费美容院管理系统，内容涵盖美容SPA、减肥纤体、美甲彩妆、中医养生、袪斑袪痘、产后修复、男士、丰胸等，同时提供女性美丽社区，美丽APP，美丽秘籍等美丽资料及交流平台。" />
+		<put-attribute name="body" expression="/WEB-INF/pages/meirong/shop/${name}.jsp" />
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="resources/css/meirong/shop/shop_info.css" />
+		</put-list-attribute>
+		<put-list-attribute name="scripts">
+		</put-list-attribute>
+	</definition> 
+	
+	
+	<definition name="user.index" extends="naked">
+		<put-attribute name="title" expression='商家详情' />
+		<put-attribute name="keywords" value="美丽加,女性网,美容,美白,护肤,减肥,袪痘袪斑,O2O美容院管理系统" />
+		<put-attribute name="description" value="美丽加致力于打造互联网最大的美丽诚信平台，为爱美人士提供安全放心的美丽项目，为美丽专业店提供O2O解决方案及免费美容院管理系统，内容涵盖美容SPA、减肥纤体、美甲彩妆、中医养生、袪斑袪痘、产后修复、男士、丰胸等，同时提供女性美丽社区，美丽APP，美丽秘籍等美丽资料及交流平台。" />
+		<put-attribute name="body" expression="/WEB-INF/pages/meirong/shop/${attr}.jsp" />
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="resources/css/meirong/shop/shop_info.css" />
+		</put-list-attribute>
+		<put-list-attribute name="scripts">
+		</put-list-attribute>
+	</definition> 
+</tiles-definitions>

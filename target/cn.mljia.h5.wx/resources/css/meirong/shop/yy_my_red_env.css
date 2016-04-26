@@ -1,0 +1,76 @@
+/*超出显示省略号（1行）*/
+.hid_slh1{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;-webkit-text-overflow:ellipsis;}
+/*超出显示省略号（2行）*/
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+p{margin: 0px;}
+
+/*我的红包-没红包*/
+.my_red_env_no{width: 640px; overflow: hidden;}
+.my_red_env_no_pic{width: 366px; height: 287px; background: url("../../../images/meirong/shop/yy_red_env_pic.png") no-repeat; margin: 90px 0 0 163px;}
+.my_red_env_no_text{width: 640px; height: 100px; color: #7c7c7c; font-size: 30px; text-align: center; line-height: 100px;}
+ 
+/*我的红包-有红包*/
+.my_red_evn_have{width: 640px; overflow: hidden;}
+.my_red_evn_box{width: 578px; height: 172px; border-top:1px solid #e4e4e4; border-left:1px solid #e4e4e4; border-right:1px solid #e4e4e4; border-bottom:5px solid #e6e2e2; border-radius: 10px; overflow: hidden; margin: 20px auto 0; background-color: #fff;}
+
+/*橙色红包*/
+.my_red_evn_box_left_orange{width: 120px; height: 120px; background-color: #ffa851; text-align: center; line-height: 120px; color: #fff; margin: 21px; font-size: 40px;  float: left;}
+.my_red_evn_box_left_orange font{font-size: 20px;}
+
+/*红色红包*/
+.my_red_evn_box_left_red{width: 120px; height: 120px; background-color: #f5655d; text-align: center; line-height: 120px; color: #fff; margin: 21px; font-size: 40px;  float: left;}
+.my_red_evn_box_left_red font{font-size: 20px;}
+
+/*灰色红包*/
+.my_red_evn_box_left_gray{width: 120px; height: 120px; background-color: #c1c1c1; text-align: center; line-height: 120px; color: #fff; margin: 21px; font-size: 40px;  float: left;}
+.my_red_evn_box_left_gray font{font-size: 20px;}
+
+
+.my_red_evn_box_right{width: 406px; height: 120px; margin-top: 21px; float: left;}
+.my_red_evn_title{width: 406px; height: 45px; color: #444444; font-size: 30px; line-height: 35px;}
+.my_red_evn_inf{width: 406px; height: 75px; margin: 0px; list-style:inside; }
+.my_red_evn_inf li{width: 406px; height: 26px; color: #7c7c7c; line-height: 25px; font-size: 20px;}
+
+
+
+/*灰色红包*/
+.my_red_evn_box_gray_right{width: 406px; height: 120px; margin-top: 21px; float: left;}
+.my_red_evn_gray_title{width: 406px; height: 45px; color: #c1c1c1; font-size: 30px; line-height: 35px;}
+.my_red_evn_gray_inf{width: 406px; height: 75px; margin: 0px; list-style:inside; }
+.my_red_evn_gray_inf li{width: 406px; height: 26px; color: #c1c1c1; line-height: 25px; font-size: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

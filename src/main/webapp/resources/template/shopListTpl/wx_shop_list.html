@@ -1,0 +1,14 @@
+<div class="shopmanmain wx_guanlian bghui2 lh40" id="wxShopListTmpl">
+	<p class="selects_tatle1">请选择您要加入的商家</p>
+	<p class="selects_tatle2">只选择一家您开过卡的即可</p>
+	{{# for(var i = 0; i< d.content.length; i++) { }}
+       {{# var item = d.content[i] }}
+	<div class="selectshoper poi1"  data-click="true" data-shop-id="{{ item.shop_id }}">
+		<p class="a1"><span class="fl wordsbase box480">{{ item.shop_name }}</span><a  class="selebut fr "></a></p>
+		<p class="a2"><img src="{{ d.webRoot }}/resources/images/meirong/shop/selectshopmen_02.gif" width="24" height="30">{{ item.shop_tel }}</p>
+		<p class="a3 poi2">
+		<span class="fl wordsbase inf01 "><img src="{{ d.webRoot }}/resources/images/meirong/shop/selectshopmen_03.gif" width="21" height="30">{{ item.shop_address }}</span>
+		<span class="fl inf02">{{ item.distance }}</span></p>
+	</div>
+     {{# } }}
+</div>
