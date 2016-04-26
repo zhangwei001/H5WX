@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cn.mljia.h5.wx:war exploded">
+    <output-path>$PROJECT_DIR$/target/cn.mljia.h5.wx</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cn.mljia.h5.wx" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: cn.mljia.interface:cn.mljia.interface.mstorage:1.0.3" />
+          <element id="library" level="project" name="Maven: cn.mljia.component:cn.mljia.component.web:2.0.0" />
+          <element id="library" level="project" name="Maven: cn.mljia:cn.mljia.common:2.0.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.10" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: cn.mljia.component:cn.mljia.component.util:2.2.4" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface:cn.mljia.interface.pay:3.1.1" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface.meirong:cn.mljia.interface.meirong.main.shop:1.0.3" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface.meirong:cn.mljia.interface.meirong.main.common:1.0.8" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface.meirong:cn.mljia.interface.meirong.main.user:1.1.4" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface.meirong:cn.mljia.interface.meirong.basic.data:1.2.4" />
+          <element id="library" level="project" name="Maven: cn.mljia.interface.meirong:cn.mljia.interface.meirong.common:1.6.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/cn.mljia.h5.wx/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cn.mljia.h5.wx/web/Web" />
+    </root>
+  </artifact>
+</component>

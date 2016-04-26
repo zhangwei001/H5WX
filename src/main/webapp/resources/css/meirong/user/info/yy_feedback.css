@@ -1,0 +1,33 @@
+/*超出显示省略号（1行）*/
+.hid_slh1{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;-webkit-text-overflow:ellipsis;}
+/*超出显示省略号（2行）*/
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+p{margin: 0px;}
+
+/*意见反馈*/
+.feedback_box{width: 640px; overflow: hidden;}
+.feedback_write_box{width: 640px; height: 438px; position: relative;}
+.feedback_write{width: 640px; height: 438px; border: 0px; padding: 10px; resize:none; font-size: 30px; font-family: "微软雅黑"; background-color: #fff;}
+.feedback_write_s1{position: absolute; bottom: 20px; right: 20px; color: #b3b3b3; font-size: 24px;}
+.feedback_write_s1 font{color: #ff5ebd;}
+
+
+.choose_pic_box{width: 640px; background-color: #fff; margin-top: 20px; overflow: hidden;}
+.choose_pic_list{width: 640px; overflow: hidden; margin-bottom: 45px;}
+.choose_pic_list li{width: 166px; height: 166px; margin: 30px 0px 0px 35px; float: left;}
+.choose_pic_list li img{display: block; width: 166px; height: 166px;}
+.btn_choose_pic{display: block; width: 166px; height: 166px;}
+
+.feedback_btn_sure{display: block; width: 580px; height: 84px; background-color: #c1c1c1; text-align: center; line-height: 84px; margin: 85px auto 0; color: #ffffff; font-size: 36px; text-decoration: none; border-radius: 10px; }
+.feedback_btn_sure:hover{color: #fff;}
+
+
+.feedback_btn_sure_h{display: block; width: 580px; height: 84px; background-color: #ff5ebd; text-align: center; line-height: 84px; margin: 85px auto 0; color: #ffffff; font-size: 36px; text-decoration: none; border-radius: 10px; }
+.feedback_btn_sure_h:hover{color: #fff;}
+
+.pingjia_picupload{padding-top:0px;}
+
+
+
+

@@ -1,0 +1,59 @@
+/*超出显示省略号（1行）*/
+.hid_slh1{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;-webkit-text-overflow:ellipsis;}
+/*超出显示省略号（2行）*/
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+p{margin: 0px;}
+
+/*预约护理产品*/
+.yy_hlkx_box{width: 640px;  background-color: #ffffff; padding-bottom: 20px; margin-bottom: 20px;}
+.yy_hlkx_top{width: 582px; height: 62px; margin: 0 auto 0;}
+.yy_hlkx_top_s1{display: block; width: 110px; height: 62px; color: #7c7c7c; font-size: 24px; line-height: 62px; float: left;}
+.yy_hlkx_top_s1_red{display: block; width: 110px; height: 62px; color: #ff4f4f; font-size: 24px; line-height: 62px; float: left;}
+
+.yy_hlkx_top_s2{display: block; width: 400px; height: 62px; color: #7c7c7c; font-size: 24px; line-height: 62px; margin-left: 20px; float: left; }
+
+.yy_hlkx_cent{width: 582px; height: 110px; margin: 0 auto 0;}
+.yy_hlkx_cent_pic{width: 110px; height: 110px; float: left; position: relative;}
+.yy_hlkx_cent_pic img{display: block; margin: 0px; padding: 0px;}
+
+.yy_hlkx_cent_text{width: 440px; height: 110px; margin-left: 20px; float: left;}
+.yy_hlkx_cent_name{width: 440px; height: 46px; color: #444444; font-size: 32px; line-height: 32px; margin: 0px;}
+.yy_hlkx_cent_time{width: 440px; height: 36px; color: #444444; font-size: 24px; line-height: 40px;}
+.yy_hlkx_cent_total{ color: #444444; font-size: 24px; line-height: 32px; float: left; }
+.yy_fg{width: 40px; height: 32px; color: #e4e4e4; text-align: center; float: left; line-height: 32px;}
+.yy_hlkx_cent_number{color: #444444; font-size: 24px; line-height: 32px; float: left; }
+.yy_text_red{color: #ff5ebd;}
+
+.yy_btn_box{width: 582px; height: 62px; margin: 34px auto 0;}
+
+.btn_red{display: block; width: 158px; height: 58px; color: #ff4f4f; font-size: 24px; text-align: center; line-height: 58px; border: 1px solid #ff4f4f; float: left; text-decoration: none; border-radius: 10px; }
+
+.btn_blue{display: block; width: 158px; height: 58px; color: #32abff; font-size: 24px; text-align: center; line-height: 58px; border: 1px solid #32abff; float: left; text-decoration: none; border-radius: 10px;}
+
+.btn_gray{display: block; width: 158px; height: 58px; color: #7c7c7c; font-size: 24px; text-align: center; line-height: 58px; border: 1px solid #7c7c7c; float: left; text-decoration: none; border-radius: 10px; }
+
+.yy_btn_mr{margin: 0 20px 0 240px;}
+
+.btn_red:hover{color: #ff4f4f;}
+
+.btn_blue:hover{color: #32abff;}
+
+.btn_gray:hover{color: #7c7c7c;}
+
+
+.kx_icon{display: block; width: 65px; height: 56px; background:url("../../../images/meirong/shop/kx_icon.png") no-repeat; position: absolute; top: 0px; left: 0px;}
+
+/*预约卡项*/
+
+
+
+
+
+
+
+
+
+
+
+

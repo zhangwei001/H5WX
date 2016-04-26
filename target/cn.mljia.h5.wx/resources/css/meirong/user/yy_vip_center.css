@@ -1,0 +1,95 @@
+/*超出显示省略号（1行）*/
+.hid_slh1{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;-webkit-text-overflow:ellipsis;}
+/*超出显示省略号（2行）*/
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.hid_slh2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+/*雪碧图*/
+.sp{background: url("../../../images/meirong/shop/yy_sp.png") no-repeat;}
+/*防止漂浮导航遮住内容*/
+.shopmanmain{margin-bottom: 65px;}
+/*下方浮动导航*/
+.bot_nav_float{width: 640px; height: 100px; border-top: 1px solid #e4e4e4; background-color: #fff; position: fixed; bottom: 0px; left: 0px;}
+
+.nav_float_list{width: 640px; height: 100px; margin: 0px;}
+.nav_float_list li{width: 140px; height: 100px; float: left; margin: 0 35px 0 35px;}
+.nav_float_list li a{display: block; width: 140px; height: 100px; text-decoration: none;}
+
+.nav_float_btn1{}
+
+/*浮动导航未选中状态*/
+.nav_float_btn1 .nav_float_s1{display: block; width: 48px; height: 48px; background-position: -64px -328px; margin: 12px auto 0; }
+.nav_float_btn2 .nav_float_s2{display: block; width: 48px; height: 48px; background-position: -161px -328px; margin: 12px auto 0;}
+.nav_float_btn3 .nav_float_s3{display: block; width: 48px; height: 48px; background-position: -258px -328px; margin: 12px auto 0;}
+
+/*浮动导航选中状态*/
+.nav_float_btn1_h .nav_float_s1{display: block; width: 48px; height: 48px; background-position: -64px -388px; margin: 12px auto 0;}
+.nav_float_btn2_h .nav_float_s2{display: block; width: 48px; height: 48px; background-position: -161px -388px; margin: 12px auto 0;}
+.nav_float_btn3_h .nav_float_s3{display: block; width: 48px; height: 48px; background-position: -258px -388px; margin: 12px auto 0;}
+
+.nav_float_btn1_h .nav_float_text{color: #ff5ebd;}
+.nav_float_btn2_h .nav_float_text{color: #ff5ebd;}
+.nav_float_btn3_h .nav_float_text{color: #ff5ebd;}
+
+.nav_float_text{display: block; width: 140px; height: 35px; color: #7c7c7c; font-size: 18px; text-align: center; line-height: 35px; text-decoration: none;}
+
+
+/*头部用户信息*/
+.vip_top_box{width: 640px; height: 200px; background: url("../../../images/meirong/shop/vip_top_bg.jpg") no-repeat;}
+.vip_pic{width: 120px; height: 120px; margin:40px 0 0 32px; float: left;}
+.vip_pic_img{display: block; width: 120px; height: 120px; border-radius: 120px;}
+.vip_inf_box{width: 400px; height: 120px;  margin:40px 0 0 30px; float: left; }
+.vip_user_name{width: 400px; height: 120px; line-height: 120px; color: #ffffff; font-size: 32px; margin: 0px;}
+.vip_user_number{width: 400px; height: 60px; line-height: 50px; color: #ffffff; font-size: 24px; margin: 0px;}
+
+/*交易状态*/
+.jy_anarchy{width: 640px; height: 150px; background-color: #fff;}
+.jy_anarchy_list{width: 640px; height: 150px; margin: 0px;}
+.jy_anarchy_list li{width: 213px; height: 98px; border-right:1px solid #e4e4e4; margin-top: 26px;  float: left; }
+.jy_anarchy_list .jy_anarchy_li2{border-right:0px;}
+
+.jy_anarchy_list li a{display: block; width: 213px; height: 98px; text-decoration: none;}
+.jy_anarchy_s1{display: block; width: 213px; height: 49px; text-align: center; line-height: 60px; font-size: 30px; color: #7c7c7c;}
+.jy_anarchy_s2{display: block; width: 213px; height: 49px; text-align: center; line-height: 45px; font-size: 36px; color: #444444; }
+
+/*关于自己*/
+.vip_myself_box{width: 640px; overflow: hidden; background-color: #fff; margin-top: 20px;}
+.vip_myself_list{width: 580px; overflow: hidden; margin: 0 auto 0;}
+.vip_myself_list li{width: 580px; height: 88px; border-bottom: 1px solid #e4e4e4; }
+
+.vip_myself_list li:last-child{border-bottom: 0px;}
+
+.vip_myself_list li a{display: block; width: 580px; height: 88px; }
+
+.vip_myself_icon1{display: block; width: 46px; height: 46px; background-position: 0 -519px; margin: 21px 0 0 0; float: left;}
+.vip_myself_icon2{display: block; width: 46px; height: 46px; background-position: -53px -519px; margin: 21px 0 0 0; float: left;}
+.vip_myself_icon3{display: block; width: 46px; height: 46px; background-position: -115px -519px; margin: 21px 0 0 0; float: left;}
+.vip_myself_icon4{display: block; width: 46px; height: 46px; background-position: -175px -519px; margin: 21px 0 0 0; float: left;}
+
+.vip_myself_s2{display: block; width: 514px; height: 46px; background-position: 0 -519px; margin: 21px 0 0 0; text-indent: 16px; color: #7c7c7c; font-size: 30px; line-height: 46px; float: left;}
+.vip_myself_s3{display: block; width: 20px; height: 34px; color: #b3b3b3; font-size: 40px; text-align: center; line-height: 10000px; float: left; background: url("../../../images/meirong/shop/jt_sp.png") -105px -1px no-repeat; margin-top: 26px;}
+
+/*意见反馈*/
+.feedback_box{width: 640px; height: 88px; margin: 20px auto 0; background-color: #fff; }
+.feedback_event{width: 580px; height: 88px; margin: 0 auto 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

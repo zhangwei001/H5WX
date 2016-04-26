@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cn.mljia.h5.wx:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cn.mljia.h5.wx.war">
+      <element id="artifact" artifact-name="cn.mljia.h5.wx:war exploded" />
+    </root>
+  </artifact>
+</component>

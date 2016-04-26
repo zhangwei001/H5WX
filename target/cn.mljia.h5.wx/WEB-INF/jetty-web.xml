@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+	<Set name="contextPath">/wx</Set>
+	
+	
+	<Set name="virtualHosts">
+		<Array type="java.lang.String">
+		    <Item>test.mljia.cn</Item>
+		    <Item>127.0.0.1</Item>
+		    <Item>localhost</Item>
+		    <Item>192.168.20.40</Item>
+		    <Item>192.168.20.200</Item>
+	        <Item>dev.mljia.cn</Item>
+	        <Item>192.168.2.21</Item>
+	        <Item>192.168.10.33</Item>
+		    <Item>192.168.10.93</Item>
+		    <Item>192.168.10.55</Item>
+		    <Item>192.168.10.152</Item>
+		</Array>
+	</Set> 
+</Configure>

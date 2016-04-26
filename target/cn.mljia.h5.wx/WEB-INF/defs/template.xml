@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- 什么都JS没有加载，除开JQ2.10 -->
+	<definition name="naked" template="/WEB-INF/pages/layout_naked/main.jsp"  preparer="cn.mljia.weixin.base.MenuViewPreparer">
+		<put-attribute name="title" value=""/>
+		<put-attribute name="header" value="/WEB-INF/pages/layout_naked/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/pages/layout_naked/footer.jsp" />
+		<put-list-attribute name="stylesheets" >
+		
+		</put-list-attribute>
+		<put-list-attribute name="scripts" >
+		
+		</put-list-attribute>
+	</definition>
+ 
+
+	<definition name="home.index" extends="naked">
+		<put-attribute name="title" value="美丽加-主页|免费O2O云管理系统 |手机APP|美丽社区" />
+		<put-attribute name="body" value="/WEB-INF/pages/home/index.jsp" />
+		
+		
+	</definition>
+
+</tiles-definitions>
